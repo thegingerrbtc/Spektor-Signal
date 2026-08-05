@@ -1,2 +1,2 @@
-:HL["/Spektor-Signal/_next/static/chunks/10f-mh3n1mqi-.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"LCokHCprJkB5QUkUbdXAq"}
+:HL["/Spektor-Signal/_next/static/chunks/16dl4udve~duq.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"SIRJ8wLpa1Ih44zuVaZwk"}
