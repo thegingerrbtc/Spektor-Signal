@@ -1,0 +1,20 @@
+dataset,column,definition
+all,run_id,Successful pipeline run that produced the simulated account record.
+all,signal_id,"Stable identifier linking raw signals, trades, and fills."
+all,tier,"Strategy tier: fast, flagship, or sixh."
+all,timeframe,"Native strategy cadence: 1h, 4h, or 6h."
+all,market,Independent simulated account: spot or futures.
+all,leverage,Account leverage. Published detailed execution archive is the verified 1x run.
+all,funding_included,0 for this archive; historical futures funding is excluded.
+signals,raw_gross_pct,Uncosted raw signal capture; additive and not compounded.
+signals,entry_payload_json,"Frozen model context at entry, including indicators and gate values."
+signals,exit_payload_json,Frozen model context at exit; blank for open signals.
+trades,compounded_trade_return_pct,Trade return within the continuously compounded simulated account.
+trades,native_aster_listing,0 marks a cross-venue decision-support spot result rather than native Aster spot execution.
+trades,adverse_fill_cost,Cost attributed to the configured 20 bps adverse fill assumption per side.
+fills,fill_px,Simulated execution price after adverse-fill adjustment.
+fills,cash_after,Account cash immediately after the fill.
+fills,equity_after,Marked account equity immediately after the fill.
+equity-bars,equity_time,UTC valuation timestamp.
+equity-bars,equity,Marked account equity at the timestamp.
+equity-bars,coverage_note,Futures contains every replay bar used for liquidation checks; spot contains state-change snapshots. Raw OHLCV candles were not retained in the verified database.
