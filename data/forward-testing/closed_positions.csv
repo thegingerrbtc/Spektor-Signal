@@ -1,0 +1,1 @@
+trade_id,tier,symbol,side,timeframe,model,signal_time,entry_time,entry_price,exit_time,exit_price,exit_reason,bars_held,hold_days,capture_pct,tier_additive_capture_pct,symbol_additive_capture_pct,entry_logged_at,close_logged_at
